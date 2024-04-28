@@ -23,6 +23,7 @@ public class Users {
 	public void setJobs(String jobs) {
 		this.jobs = jobs;
 		System.out.println("This job is set and see for next user ");
+		System.out.println("This is another commit from x");
 	}
 	
 	
