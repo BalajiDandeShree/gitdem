@@ -19,6 +19,7 @@ public class TestBase {
 		try {
 			FileInputStream input = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/qa/config/config.properties");
 			prop.load(input);
+			System.out.println("hi i created branch");
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
